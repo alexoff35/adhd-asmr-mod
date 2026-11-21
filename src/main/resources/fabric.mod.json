@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "adhd_asmr",
+  "version": "${version}",
+  "name": "ADHD ASMR",
+  "description": "An embedded YouTube player and video queue for Minecraft.",
+  "icon": "assets/adhd_asmr/icon.png",
+  "authors": [
+    "alexoff35"
+  ],
+  "contact": {
+    "sources": "https://github.com/alexoff35/adhd-asmr-mod"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.alexoff35.adhdasmr.AdhdAsmr"
+    ],
+    "modmenu": [
+      "io.github.alexoff35.adhdasmr.MenuIntegration"
+    ]
+  },
+  "depends": {
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.161.0+26.3",
+    "mcef-modern": ">=0.3.3",
+    "modmenu": ">=21.0.1"
+  },
+  "license": "MIT"
+}
